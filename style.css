@@ -1,0 +1,47 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+h2{
+    color: rgb(155, 26, 26);
+}
+.container {
+  width: 20%;
+  margin: 2% auto;
+  padding: 50px;
+  box-shadow: 10px 10px 15px black;
+  border-radius: 25px;
+}
+.container input {
+  margin-bottom: 15px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 18px;
+
+  border-bottom: 2px solid rgb(161, 154, 154);
+}
+.container label {
+  font-weight: bold;
+}
+span {
+  color: red;
+  margin-left: 25px;
+  font-weight: 600;
+  font-size: 18px;
+  display: block;
+}
+button {
+  padding: 10px 5px;
+  width: 150px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: rgb(68, 207, 68);
+  border-radius: 10px;
+  margin-left: 25%;
+}
+button:hover {
+  transform: scale(1.02);
+}

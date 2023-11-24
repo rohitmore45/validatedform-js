@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registration Page</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <!-- <h2>Demo on Form Validation</h2> -->
+  <div class="container">
+    <h2 id="head1"><u>Registration Form</u></h2>
+    <form id="form1" action="./register.html">
+      <label for="username">Full Name:</label><br />
+      <input type="text" id="username" /><span id="nameerror"></span><br />
+      <label for="usermail">Email:</label><br />
+      <input type="email" id="usermail" required /><br />
+      <label for="usrpwd">Password:</label><br />
+      <input type="password" id="userpwd" /><span id="pwderror"></span><br />
+      <label for="userphone">Phone:</label><br />
+      <input type="text" id="userphone" /><span id="phoneerror"></span><br />
+      <label for="userpincode">Pincode:</label><br />
+      <input type="text" id="userpincode" /><span id="pincodeerror"></span><br />
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
